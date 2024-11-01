@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: 'Mariupol';
-  src: url(/Mariupol-Regular.ttf)
-}
 
 .bg {
 
@@ -107,7 +103,7 @@
 body {
   background-color: rgb(24 24 27 / 1);
   color: #fff;
-  font-family: 'Mariupol', sans-serif;
+  font-family: system-ui;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
@@ -462,7 +458,7 @@ footer {
   box-shadow: 0 4px 10px rgba(52, 211, 153, 0.1);
   transition: box-shadow 0.3s ease;
   line-height: 1.6;
-  font-family: 'Mariupol', sans-serif;
+  font-family: system-ui;
 
   margin: 20px auto; // отступ сверху и снизу
   text-align: left; // выравнивание по левому краю
